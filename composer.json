@@ -1,0 +1,16 @@
+{
+    "name": "developer/newframe",
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Application\\": "application"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    }
+}
