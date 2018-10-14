@@ -27,7 +27,7 @@ The Composer batch manager is used to implement dependencies
 
 
 ```
-git clone https://Anton-94@bitbucket.org/Anton-94/sunrise.git
+git clone https://github.com/Anton-94/Sunrise.git
 ```
 
 ### **Step 2: Update the dependencies with the command**
