@@ -1,5 +1,6 @@
 <?php
 
+use Application\Exceptions\Handler;
 use Engine\App;
 use Engine\DI\DI;
 
@@ -10,7 +11,7 @@ use Engine\DI\DI;
 */
 
 try{
-    //Dependency injections
+
     $di = new DI();
 
     $dotenv = new \Dotenv\Dotenv(ROOT_DIR);
@@ -27,7 +28,7 @@ try{
     $app = new App($di);
     $app->run();
 
-
-}catch (\Exception $e){
-    echo $e->getMessage();
+}catch(\Exception $e){
+    $handle = new Handler();
+    $handle->render($e);
 }

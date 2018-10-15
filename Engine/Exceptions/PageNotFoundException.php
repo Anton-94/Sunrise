@@ -3,9 +3,10 @@
 namespace Engine\Exceptions;
 
 
-class ModelNotFoundException extends \Exception
+class PageNotFoundException extends \Exception
 {
-    public function __construct($message = 'ModelNotFountException', $code = 404, \Exception $previous = null){
+    public function __construct($message = 'Page not found!', $code = 404, \Exception $previous = null)
+    {
         parent::__construct($message, $code, $previous);
         header("HTTP/1.x 404 Not Found");
     }

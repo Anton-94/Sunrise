@@ -39,7 +39,7 @@ class Loader
             return new $model($this->di);
         }else
         {
-            throw new ModelNotFoundException("File \"{$name}\" does not exists!");
+            throw new ModelNotFoundException("Model \"{$name}\" does not exists!");
         }
     }
 }
