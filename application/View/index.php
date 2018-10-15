@@ -23,23 +23,23 @@
 </head>
 
 <body>
-    <div class="container-fluid"> 
-        <div class="masthead clearfix">
-            <div class="inner">
-                <nav>
-                    <ul class="nav masthead-nav">
-                        <li><a href="https://twitter.com/jenyelkind"><i class="fa fa-github fa-fw"></i></a></li>
-                        <li><a href="https://www.facebook.com/jenyelkind"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li><a href="https://plus.google.com/+JenyElkind/"><i class="fa fa-google-plus fa-fw"></i></a></li>
-                        <li><a href="mailto:elkind@elkind.net"><i class="fa fa-envelope fa-fw"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="row justify-content-center align-self-center">
+    <div class="container-fluid d-flex align-self-center"> 
+<!--        <div class="masthead clearfix">-->
+<!--            <div class="inner">-->
+<!--                <nav>-->
+<!--                    <ul class="nav masthead-nav">-->
+<!--                        <li><a href="https://twitter.com/jenyelkind"><i class="fa fa-github fa-fw"></i></a></li>-->
+<!--                        <li><a href="https://www.facebook.com/jenyelkind"><i class="fa fa-facebook fa-fw"></i></a></li>-->
+<!--                        <li><a href="https://plus.google.com/+JenyElkind/"><i class="fa fa-google-plus fa-fw"></i></a></li>-->
+<!--                        <li><a href="mailto:elkind@elkind.net"><i class="fa fa-envelope fa-fw"></i></a></li>-->
+<!--                    </ul>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="row justify-content-center align-self-center w-100">
             <div class="col-6">
                     <h1 class="cover-heading"> Welcome to Sunrise Framework</h1>
-                    <a href="#" class="lead">Documentation</a>        
+                    <a href="https://github.com/Anton-94/Sunrise" class="documentation">Documentation</a>
             </div>          
         </div>
     </div>
