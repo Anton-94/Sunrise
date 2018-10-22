@@ -8,9 +8,9 @@
 Sunrise is a tool for creating simple and medium sites.
 The Composer batch manager is used to implement dependencies
 
-* [Server Requirements](#Server-Requirements)
+* [Server Requirements](##Server-requirements)
 * [Instalation](#Installation-in-4-steps)
-* [Configuration](#Configuration)
+* [Configuration](##Configuration)
 * [Getting started](#Getting-started)
 * [Var dump](#Var-dump)
 
