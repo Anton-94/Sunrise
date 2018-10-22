@@ -8,20 +8,20 @@
 Sunrise is a tool for creating simple and medium sites.
 The Composer batch manager is used to implement dependencies
 
-* [Server Requirements](##Server-requirements)
-* [Instalation](#Installation-in-4-steps)
+* [Server Requirements](#server-requirements)
+* [Instalation](#installation-in-4-steps)
 * [Configuration](##Configuration)
 * [Getting started](#Getting-started)
 * [Var dump](#Var-dump)
 
 ## Server Requirements
----------------------
+
 
 * PHP >= 7.1.0
 * PDO PHP Extension
 
-**Installation in 4 steps**
----------------------
+## Installation in 4 steps
+
 
 ### **Step 1: First you need to clone this repository**
 
