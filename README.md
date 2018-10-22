@@ -10,9 +10,9 @@ The Composer batch manager is used to implement dependencies
 
 * [Server Requirements](#server-requirements)
 * [Instalation](#installation-in-4-steps)
-* [Configuration](##Configuration)
-* [Getting started](#Getting-started)
-* [Var dump](#Var-dump)
+* [Configuration](#configuration)
+* [Getting started](#getting-started)
+* [Var dump](#var-dump)
 
 ## Server Requirements
 
@@ -50,7 +50,7 @@ DB_PASSWORD=your_password
 
 ```
 ## Configuration
--------------------
+
 ### **Environment Configuration**
 
 Sunrise uses the dotenv package to configure your application.  
@@ -62,8 +62,8 @@ APPLICATION_NAME=Sunrise
 Loads environment variables from ```.env``` to ```getenv()```, ```$_ENV``` and ```$_SERVER``` automagically.
 For more detailed information about environment variables you can read on [link](https://github.com/vlucas/phpdotenv)
 
-**Getting started**
--------------------
+## Getting started
+
 ### **Application Structure**
 ```
 application/             main application folder
@@ -164,8 +164,8 @@ public function index()
     return view('index');
 }
 ```
-**Var dump**
--------------------
+## Var dump
+
 Instead of the well-known var_dump() Sunrise uses Symfony's VarDumper component.  
 Example:
 ```php
