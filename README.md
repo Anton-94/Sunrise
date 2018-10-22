@@ -49,7 +49,7 @@ DB_USERNAME=your_name
 DB_PASSWORD=your_password
 
 ```
-**Configuration**
+## Configuration
 -------------------
 ### **Environment Configuration**
 
