@@ -14,7 +14,7 @@ The Composer batch manager is used to implement dependencies
 * [Getting started](#Getting-started)
 * [Var dump](#Var-dump)
 
-**Server Requirements**
+## Server Requirements
 ---------------------
 
 * PHP >= 7.1.0
